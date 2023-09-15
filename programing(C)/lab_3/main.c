@@ -18,19 +18,19 @@ int main()
     switch (x)
     {
         case 1:
-            printf("%f",weight);
+            printf("%f кг",weight);
             break;
         case 2:
-            printf("%f",weight*0.001);
+            printf("%f кг",weight*0.000001);
             break;
         case 3:
-            printf("%f",weight*0.01);
+            printf("%f кг",weight*0.001);
             break;
         case 4:
-            printf("%f",weight*1000);
+            printf("%f кг",weight*1000);
             break;
         case 5:
-            printf("%f",weight*100);
+            printf("%f кг",weight*100);
             break;
         default:
             printf("Error!");
