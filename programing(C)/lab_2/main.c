@@ -9,7 +9,7 @@ main ()
 
     if (x>10)
         printf("error");
-    if (x<=10)
+    if (x<10)
         if (x>=1)
             printf("y=%f",x*x*x -2);
     if (x<0)
