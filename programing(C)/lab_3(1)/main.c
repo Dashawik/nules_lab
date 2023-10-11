@@ -43,24 +43,24 @@ int main() {
     {
         case 1:
             printf("товар: %d\nкількість проданого товару: %d\n"
-                   "на яку суму проданий товар: %2.2f гр" ,t,quantity,quantity*29.80);
+                   "на яку суму проданий товар: %.2f гр" ,t,quantity,quantity*29.80);
             break;
         case 2:
             printf("товар: %d\nкількість проданого товару: %d\n"
-                   "на яку суму проданий товар: %2.2f гр" ,t,quantity, quantity*45.50);
+                   "на яку суму проданий товар: %.2f гр" ,t,quantity, quantity*45.50);
             break;
 
         case 3:
             printf("товар: %d\nкількість проданого товару: %d\n"
-                   "на яку суму проданий товар: %2.2f гр" ,t,quantity, quantity*9.98);
+                   "на яку суму проданий товар: %.2f гр" ,t,quantity, quantity*9.98);
             break;
         case 4:
             printf("товар: %d\nкількість проданого товару: %d\n"
-                   "на яку суму проданий товар: %2.2f гр" ,t,quantity, quantity*44.90);
+                   "на яку суму проданий товар: %.2f гр" ,t,quantity, quantity*44.90);
             break;
         case 5:
             printf("товар: %d\nкількість проданого товару: %d\n"
-                   "на яку суму проданий товар: %2.2f гр" ,t,quantity, quantity*67.80);
+                   "на яку суму проданий товар: %.2f гр" ,t,quantity, quantity*67.80);
             break;
         default:
             printf("ERROR!");
