@@ -13,8 +13,14 @@ int main()
            "4 – тонна\n"
            "5 – центнер\n");
     scanf("%d",&x);
+    if (x<1 || x>5) {
+        printf("error!");
+        return 1;}
     printf("Введіть масу тіла:");
+
     scanf("%f",&weight);
+
+
     switch (x)
     {
         case 1:
@@ -27,10 +33,10 @@ int main()
             printf("%f кг",weight*0.001);
             break;
         case 4:
-            printf("%f кг",weight*1000);
+            printf("%f кг",weight*1000.0);
             break;
         case 5:
-            printf("%f кг",weight*100);
+            printf("%f кг",weight*100.0);
             break;
         default:
             printf("Error!");
