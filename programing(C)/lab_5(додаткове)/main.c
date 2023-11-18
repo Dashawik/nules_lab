@@ -4,17 +4,18 @@
 
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
 
 void odd_number(int a);
 
 
-int main()
-{
+int main() {
 
+    system("chcp 65001");
 
     int a;
     char ch;
-    while (1){
+    while (1) {
 
         printf("Введіть число - ");
         scanf("%d", &a);
@@ -32,10 +33,8 @@ int main()
 }
 
 
-
-void odd_number(int a)
-{
-    if (a%2!=0)
+void odd_number(int a) {
+    if (a % 2 != 0)
         printf("непарне");
     else
         printf("парне");
